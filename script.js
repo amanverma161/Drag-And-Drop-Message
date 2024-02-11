@@ -1,0 +1,14 @@
+let e1 = document.getElementById('img');
+let e2 = document.getElementById('img2');
+let e3 = document.getElementById('img3');
+let e4 = document.getElementById('img4');
+let e5 = document.getElementById('img5');
+let e6 = document.getElementById('img6');
+let e7 = document.getElementById('img7');
+let draggie = new Draggabilly(e1);
+let draggi = new Draggabilly(e2);
+let dragg = new Draggabilly(e3);
+let drag = new Draggabilly(e4);
+let dra = new Draggabilly(e5);
+let dr = new Draggabilly(e6);
+let d = new Draggabilly(e7);

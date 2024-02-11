@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1606018134232-22eb5e1c493d?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+#img{
+    width: 950px;
+    height: 250px;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease;
+    border-radius: 10px;
+    order: 1;
+    transform: rotate(0deg);
+}
+#img:hover{
+    width: 920px;
+    height: 220px;
+    transform: rotate(0deg);
+    box-shadow: 9px 9px 40px 1px rgb(0, 0, 0);
+}
+#img:active{
+    width: 900px;
+    height: 180px;
+}
+#img2{
+    width: 550px;
+    height: 350px;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease, transform ease-in-out;
+    border-radius: 10px;
+    position: absolute;
+    order: 2;
+    transform: rotate(-10deg);
+}
+#img2:hover{
+    width: 520px;
+    height: 320px;
+    transform: rotate(0deg);
+    box-shadow: 9px 9px 40px 1px rgb(0, 0, 0);
+}
+#img2:active{
+    width: 500px;
+    height: 280px;
+}
+#img3{
+    width: 750px;
+    height: 350px;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease, transform ease-in-out;
+    border-radius: 10px;
+    position: absolute;
+    order: 3;
+    transform: rotate(10deg);
+}
+#img3:hover{
+    width: 720px;
+    height: 320px;
+    transform: rotate(0deg);
+    box-shadow: 9px 9px 40px 1px rgb(0, 0, 0);
+}
+#img3:active{
+    width: 700px;
+    height: 280px;
+}
+#img4{
+    width: 450px;
+    height: 250px;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease, transform ease-in-out;
+    border-radius: 10px;
+    position: absolute;
+    order: 4;
+    transform: rotate(15deg);
+}
+#img4:hover{
+    width: 420px;
+    height: 220px;
+    transform: rotate(0deg);
+    box-shadow: 9px 9px 40px 1px rgb(0, 0, 0);
+}
+#img4:active{
+    width: 400px;
+    height: 180px;
+}
+#img5{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease, transform ease-in-out;
+    border-radius: 10px;
+    position: absolute;
+    order: 5;
+    transform: rotate(-15deg);
+}
+#img5:hover{
+    width: 320px;
+    height: 220px;
+    transform: rotate(0deg);
+    box-shadow: 9px 9px 40px 1px rgb(0, 0, 0);
+}
+#img5:active{
+    width: 300px;
+    height: 180px;
+}
+#img6{
+    width: 650px;
+    height: 350px;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease, transform ease-in-out;
+    border-radius: 10px;
+    position: absolute;
+    order: 6;
+    transform: rotate(0deg);
+}
+#img6:hover{
+    width: 620px;
+    height: 320px;
+    transform: rotate(0deg);
+    box-shadow: 9px 9px 40px 1px rgb(0, 0, 0);
+}
+#img6:active{
+    width: 600px;
+    height: 280px;
+}
+#img7{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease, transform ease-in-out;
+    border-radius: 10px;
+    position: absolute;
+    order: 7;
+    transform: rotate(20deg);
+}
+#img7:hover{
+    width: 320px;
+    height: 220px;
+    transform: rotate(0deg);
+    box-shadow: 9px 9px 40px 1px rgb(0, 0, 0);
+}
+#img7:active{
+    width: 300px;
+    height: 180px;
+}
